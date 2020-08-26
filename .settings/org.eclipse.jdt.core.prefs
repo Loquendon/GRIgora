@@ -3,4 +3,4 @@ org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
 org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
 org.eclipse.jdt.core.compiler.codegen.unusedLocal=preserve
 org.eclipse.jdt.core.compiler.compliance=1.8
-org.eclipse.jdt.core.compil
+org.eclipse.jdt.core.compiler.debug.lineNumb
