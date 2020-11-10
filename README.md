@@ -1,2 +1,2 @@
 # FX-Trade 
-F
+FX-Trade is a open sou
