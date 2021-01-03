@@ -19,3 +19,23 @@ public class MainApp extends Application {
 	private Stage primaryStage;
     private BorderPane rootLayout;
     
+	@Override
+	public void start(Stage primaryStage) {
+		
+		  this.primaryStage = primaryStage;
+	      this.primaryStage.setTitle("Login");
+
+	       initRootLayout();
+	       
+	       showLogin();
+
+	        
+		
+	}
+	@Override
+	public void stop(){
+	    Login.returnFXClient().logout();
+	}
+	
+	public void initRootLayout() {
+        try {
