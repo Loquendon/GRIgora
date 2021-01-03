@@ -18,3 +18,24 @@ import com.ollie.model.Login;
 
 public class LoginController {
 	
+	@FXML
+	public TextField userF;
+    public PasswordField passwordF;
+    public Label errorLabel;
+    
+    public void loginButtonPressed() throws IOException{
+
+    	String user = userF.getText();
+    	String pass = passwordF.getText();
+
+    	int res = Login.loginAttempt(user, pass);
+    	
+    	System.out.println("Result of login attempt " + res);
+    	
+    	if (res == 1) {
+
+            System.out.println("LOGIN SUCCESSFUL");
+
+            //Change scene 
+            
+            Parent mainView = FXMLLoader.load(getClass().getResource("../view/MainView.fxml"));
