@@ -59,3 +59,26 @@ public class MainApp extends Application {
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(MainApp.class.getResource("/com/ollie/view/Login.fxml"));
             AnchorPane login = (AnchorPane) loader.load();
+
+            // Set test into the center of root layout.
+            rootLayout.setCenter(login);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+	
+	/**
+     * Returns the main stage.
+     * @return
+     */
+    public Stage getPrimaryStage() {
+        return primaryStage;
+    }
+    public BorderPane getRootLayout(){
+    	return rootLayout;
+    }
+
+	public static void main(String[] args) {
+		launch(args);
+	}
+}
