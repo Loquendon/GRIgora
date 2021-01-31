@@ -39,3 +39,23 @@ public class MainApp extends Application {
 	
 	public void initRootLayout() {
         try {
+            // Load root layout from fxml file.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("/com/ollie/view/RootLayout.fxml"));
+            rootLayout = (BorderPane) loader.load();
+
+            // Show the scene containing the root layout.
+            Scene scene = new Scene(rootLayout);
+            primaryStage.setScene(scene);
+            primaryStage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+	
+	public void showLogin() {
+        try {
+            // Load test.
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(MainApp.class.getResource("/com/ollie/view/Login.fxml"));
+            AnchorPane login = (AnchorPane) loader.load();
