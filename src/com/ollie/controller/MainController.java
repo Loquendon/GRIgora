@@ -70,3 +70,29 @@ public class MainController implements Initializable{
 	@FXML
 	private ComboBox<String> currencyPairCombo;
 	@FXML
+	private TextField unitsTF;
+	@FXML
+	private TextField takeProfitTF;
+	@FXML
+	private TextField stopLossTF;
+	@FXML 
+	private ToggleButton buyBtn;
+	@FXML 
+	private ToggleButton sellBtn;
+	@FXML
+    public TextField rateTF;
+	@FXML
+	public GridPane accountOrderGP;
+	@FXML
+	public GridPane openOrdersGP;
+	
+	public void updateAccountOrderGP(){
+		
+		//clear past values
+		
+		ArrayList<Node> nodes = new ArrayList<Node>();
+		
+		for(int i = 0; i < 8; i++){
+			nodes.add(openOrdersGP.getChildren().get(i));
+		}
+		
