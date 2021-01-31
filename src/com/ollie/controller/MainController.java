@@ -54,3 +54,19 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
 
+
+public class MainController implements Initializable{
+	
+	public static XYChart.Series<String, Number> series = new  XYChart.Series<String, Number>();
+	final ToggleGroup group = new ToggleGroup();
+	public static double currentRate = 1;
+	
+	@FXML
+    private CategoryAxis xAxis;
+    @FXML
+    private NumberAxis yAxis;
+	@FXML
+	private LineChart<String, Number> myChart;
+	@FXML
+	private ComboBox<String> currencyPairCombo;
+	@FXML
