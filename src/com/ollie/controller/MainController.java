@@ -119,3 +119,20 @@ public class MainController implements Initializable{
 		// update orders
 		try {
 			OpenOrders.updateOpenOrders();
+		} catch (SessionException e) {
+			e.printStackTrace();
+		}
+	
+		
+		//loop through and print to grid
+		for(int i = 0; i < OpenOrders.getSize(); i++){
+			
+			
+			Label profitLoss = new Label(OpenOrders.getPL(i));
+			
+			if(OpenOrders.getPL(i).startsWith("-")){
+				profitLoss.setStyle("-fx-background-color:  #ff5b5b");
+			}
+			else{
+				profitLoss.setStyle("-fx-background-color: #22cda5");
+			}
