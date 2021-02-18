@@ -96,3 +96,26 @@ public class MainController implements Initializable{
 			nodes.add(openOrdersGP.getChildren().get(i));
 		}
 		
+		openOrdersGP.getChildren().clear();
+		openOrdersGP.getChildren().addAll(nodes);
+		
+		accountOrderGP.getChildren().clear();
+		
+		
+		//add account details
+		Label username = new Label("Username: " + Login.getAccountName());
+		username.setStyle("-fx-font-size: 14px");
+		GridPane.setHalignment(username, HPos.CENTER);
+		accountOrderGP.add(username, 0, 0);
+		
+		DecimalFormat df = new DecimalFormat("#.#####");
+		String b = df.format(Login.getBalance());
+		Label balance = new Label("Balance: " + b);
+		balance.setStyle("-fx-font-size: 14px");
+		GridPane.setHalignment(balance, HPos.CENTER);
+		accountOrderGP.add(balance, 1, 0);
+		
+		
+		// update orders
+		try {
+			OpenOrders.updateOpenOrders();
