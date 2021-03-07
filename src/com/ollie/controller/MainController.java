@@ -168,3 +168,24 @@ public class MainController implements Initializable{
 		FXClient fxclient = Login.returnFXClient();
 		User me = fxclient.getUser();
 		Vector<Account> accounts = me.getAccounts();
+		Account myaccount = (Account)accounts.firstElement();
+		Vector<MarketOrder> trades = new Vector<MarketOrder>();
+		try {
+			trades = myaccount.getTrades();
+		}
+		catch (OAException oe) {
+			System.out.println("Example: caught: " + oe);
+		}
+		System.out.println("CURRENT TRADES:");
+		for (int i = 0; i < trades.size(); i++) {
+			System.out.println(trades.elementAt(i));
+		}
+			
+	}
+	
+	public void updateRateTF(double d){
+		DecimalFormat df = new DecimalFormat("#.#####");
+		rateTF.setText(df.format(d));
+	}
+	
+	public static double getRateTF(){
