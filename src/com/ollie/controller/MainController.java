@@ -136,3 +136,21 @@ public class MainController implements Initializable{
 			else{
 				profitLoss.setStyle("-fx-background-color: #22cda5");
 			}
+			
+			openOrdersGP.add(new Label(OpenOrders.getTransactionID(i)), 0, i+1);
+			openOrdersGP.add(new Label(OpenOrders.getUnits(i)), 1, i+1);
+			openOrdersGP.add(new Label(OpenOrders.getPair(i)), 2, i+1);
+			openOrdersGP.add(new Label(OpenOrders.getBuySell(i)), 3, i+1);
+			openOrdersGP.add(new Label(OpenOrders.getPrice(i)), 4, i+1);
+			openOrdersGP.add(profitLoss, 5, i+1);
+			openOrdersGP.add(new Label(OpenOrders.getSL(i)), 6, i+1);
+			openOrdersGP.add(new Label(OpenOrders.getTP(i)), 7, i+1);
+			openOrdersGP.add(OpenOrders.getButton(i), 8, i+1);
+		
+			
+		}
+		
+	}
+	
+	public void confirmOrderBtnPressed() throws SessionException{
+		
