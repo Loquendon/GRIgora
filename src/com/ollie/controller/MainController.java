@@ -154,3 +154,17 @@ public class MainController implements Initializable{
 	
 	public void confirmOrderBtnPressed() throws SessionException{
 		
+		//need to get rates and update text field 
+		//need to move this method to model
+		
+		CurrentOrder  co = new CurrentOrder();
+		co.setPair(CurrentPair.getCurrentPair());
+		co.setUnits(unitsTF.getText(), (String) group.getSelectedToggle().getUserData());	
+		if(!stopLossTF.getText().equals("")){co.setSL(stopLossTF.getText());}
+		if(!takeProfitTF.getText().equals("")){co.setTP(takeProfitTF.getText());}
+		co.executeOrder();
+		
+		
+		FXClient fxclient = Login.returnFXClient();
+		User me = fxclient.getUser();
+		Vector<Account> accounts = me.getAccounts();
