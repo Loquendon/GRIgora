@@ -189,3 +189,28 @@ public class MainController implements Initializable{
 	}
 	
 	public static double getRateTF(){
+		return currentRate; 
+	}
+
+	public void updatePairBtnPressed(){
+		String s = (String) currencyPairCombo.getValue();
+		CurrentPair.setCurrentPair(s);
+		initGraph();
+
+	}
+	public void plusBtnPressed(){
+		
+		CurrentGraph.setCurrentGraphPointCount(CurrentGraph.getCurrentGraphPointCount() + 1);
+		initGraph();
+	}
+	public void minusBtnPressed(){
+		
+		CurrentGraph.setCurrentGraphPointCount(CurrentGraph.getCurrentGraphPointCount() - 1);
+		initGraph();
+	}
+	public void fiveSecBtnPressed(){
+		
+		CurrentGraph.setCurrentGraphInterval(FXClient.INTERVAL_5_SEC);
+		initGraph();
+	}
+	public void thirtySecBtnPressed(){
