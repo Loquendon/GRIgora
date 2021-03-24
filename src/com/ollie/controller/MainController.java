@@ -236,3 +236,29 @@ public class MainController implements Initializable{
 	public void oneDayBtnPressed(){
 		
 		CurrentGraph.setCurrentGraphInterval(FXClient.INTERVAL_1_DAY);
+		initGraph();
+	}
+	public void buySellBtnPressed(){
+		if(buyBtn.isSelected()){
+			
+			buyBtn.setBorder(new Border(new BorderStroke(Color.web("#1f82b8"), 
+		            BorderStrokeStyle.SOLID, CornerRadii.EMPTY, BorderWidths.DEFAULT)));
+			sellBtn.setBorder(null);
+		}
+		else{
+			
+			sellBtn.setBorder(new Border(new BorderStroke(Color.web("#1f82b8"), 
+		            BorderStrokeStyle.SOLID, CornerRadii.EMPTY, BorderWidths.DEFAULT)));
+			buyBtn.setBorder(null);
+		}
+	}
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void updateGraph(){
+		
+		// checks to see if update in progress 
+		
+		if(CurrentGraph.getUpdateInProgress() == false){
+			
+			CurrentGraph.setUpdateInProgress(true);
+			
+			//gets history vector of the current pair and current interval 
