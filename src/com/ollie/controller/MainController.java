@@ -214,3 +214,25 @@ public class MainController implements Initializable{
 		initGraph();
 	}
 	public void thirtySecBtnPressed(){
+		
+		CurrentGraph.setCurrentGraphInterval(FXClient.INTERVAL_30_SEC);
+		initGraph();
+	}
+	public void oneMinBtnPressed(){
+		
+		CurrentGraph.setCurrentGraphInterval(FXClient.INTERVAL_1_MIN);
+		initGraph();
+	}
+	public void fiveMinBtnPressed(){
+		
+		CurrentGraph.setCurrentGraphInterval(FXClient.INTERVAL_5_MIN);
+		initGraph();
+	}
+	public void oneHrBtnPressed(){
+		
+		CurrentGraph.setCurrentGraphInterval(FXClient.INTERVAL_1_HOUR);
+		initGraph();
+	}
+	public void oneDayBtnPressed(){
+		
+		CurrentGraph.setCurrentGraphInterval(FXClient.INTERVAL_1_DAY);
