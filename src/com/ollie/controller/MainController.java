@@ -262,3 +262,21 @@ public class MainController implements Initializable{
 			CurrentGraph.setUpdateInProgress(true);
 			
 			//gets history vector of the current pair and current interval 
+			//removes oldest data point from series and adds newest
+				
+			CurrentPair.updateHistory(CurrentGraph.getCurrentGraphInterval());
+			
+			Vector<FXHistoryPoint> currentVector = CurrentPair.getHistoryVector(CurrentGraph.getCurrentGraphInterval());
+			
+			series.getData().remove(0);
+			String timeStamp = CurrentGraph.getTimeStamp(currentVector.elementAt(CurrentGraph.getCurrentGraphPointCount()-1).getTimestamp());
+			Double ask = currentVector.elementAt(CurrentGraph.getCurrentGraphPointCount()-1).getMax().getAsk();
+			series.getData().add(new XYChart.Data(timeStamp, ask));
+			
+			CurrentGraph.setUpdateInProgress(false);
+			
+		}
+		
+		
+		
+	}
