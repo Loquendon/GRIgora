@@ -297,3 +297,22 @@ public class MainController implements Initializable{
 
 			Vector<FXHistoryPoint> currentVector = CurrentPair.getHistoryVector(CurrentGraph.getCurrentGraphInterval());
 
+
+			series.getData().clear();
+
+			for(int i = 0; i < currentVector.size(); i++){
+
+				String timeStamp = CurrentGraph.getTimeStamp(currentVector.elementAt(i).getTimestamp());
+				Double ask = currentVector.elementAt(i).getMax().getAsk();
+				series.getData().add(new XYChart.Data(timeStamp, ask));
+			}
+
+			
+			CurrentGraph.setUpdateInProgress(false);
+		}
+		
+		
+	}
+	
+	
+	@SuppressWarnings({ "rawtypes", "unchecked" })
