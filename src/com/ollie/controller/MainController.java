@@ -280,3 +280,20 @@ public class MainController implements Initializable{
 		
 		
 	}
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void initGraph(){
+		
+		// checks to see if update in progress 
+		
+		if(CurrentGraph.getUpdateInProgress() == false){
+			
+			CurrentGraph.setUpdateInProgress(true);
+
+			//gets history vector of the current pair and current interval 
+			//loops through and adds to series
+			//sets chart to display series
+
+			CurrentPair.updateHistory(CurrentGraph.getCurrentGraphInterval());
+
+			Vector<FXHistoryPoint> currentVector = CurrentPair.getHistoryVector(CurrentGraph.getCurrentGraphInterval());
+
