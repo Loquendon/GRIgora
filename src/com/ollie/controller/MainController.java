@@ -316,3 +316,14 @@ public class MainController implements Initializable{
 	
 	
 	@SuppressWarnings({ "rawtypes", "unchecked" })
+	@Override
+	public void initialize(URL location, ResourceBundle resources) {
+		
+		//update open orders
+		updateAccountOrderGP();
+		
+		
+		//init rate ticker and rateTF
+		
+		FXClient fxclient = Login.returnFXClient();
+		Login.returnFXClient().createRateThread(true);
