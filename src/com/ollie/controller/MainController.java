@@ -327,3 +327,20 @@ public class MainController implements Initializable{
 		
 		FXClient fxclient = Login.returnFXClient();
 		Login.returnFXClient().createRateThread(true);
+		Ticker t = new Ticker();
+		try { fxclient.getRateTable().getEventManager().add(t); }
+		catch (SessionException e) { System.out.println(e);}
+		
+		Task rateUpdater = new Task<Void>() {
+		    @Override public void run() {
+		        do{
+		        	updateRateTF(currentRate);
+		        	
+		        	
+		        	//run in fx thread
+		        	Platform.runLater(new Runnable() {
+		                @Override public void run() {
+		                	updateAccountOrderGP();
+		                }
+		            });
+		        	
