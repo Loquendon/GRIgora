@@ -374,3 +374,17 @@ public class MainController implements Initializable{
 		buyBtn.setUserData("BUY");
 		sellBtn.setToggleGroup(group);
 		sellBtn.setUserData("SELL");
+		buyBtn.setSelected(true);
+		buyBtn.setBorder(new Border(new BorderStroke(Color.BLACK, 
+	            BorderStrokeStyle.SOLID, CornerRadii.EMPTY, BorderWidths.DEFAULT)));
+		
+		//init current pair
+		CurrentPair.initCurrentPair();	
+		
+		//init series
+		series.getData().add(new XYChart.Data("",0));
+		
+		//add series to chart
+		myChart.getData().addAll(series);
+		myChart.animatedProperty().set(false);
+		myChart.setCreateSymbols(false);
