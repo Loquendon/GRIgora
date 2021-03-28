@@ -388,3 +388,21 @@ public class MainController implements Initializable{
 		myChart.getData().addAll(series);
 		myChart.animatedProperty().set(false);
 		myChart.setCreateSymbols(false);
+		yAxis.autoRangingProperty().set(true);
+		yAxis.setForceZeroInRange(false);
+		xAxis.setLabel("");
+		myChart.setLegendVisible(false);
+		myChart.setTitle("");
+		
+		
+		//start graph updater thread
+		GraphUpdater updater = new GraphUpdater();
+        Thread thread = new Thread(updater);
+        thread.start();
+		
+		
+	}
+	
+
+}
+
