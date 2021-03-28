@@ -344,3 +344,33 @@ public class MainController implements Initializable{
 		                }
 		            });
 		        	
+		        	try {
+						Thread.sleep(1000);
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+		        }
+		        while(true);
+		        
+		    }
+
+			@Override
+			protected Void call() throws Exception {
+				return null;
+			}
+		};
+		new Thread(rateUpdater).start();
+		
+		
+		//init combo boxes
+		currencyPairCombo.getItems().removeAll(currencyPairCombo.getItems());
+		currencyPairCombo.getItems().addAll("GBP/USD","EUR/GBP","EUR/USD","EUR/AUD","GBP/AUD","AUD/USD");
+		currencyPairCombo.getSelectionModel().select("GBP/USD");
+		
+		
+		//init toggle buttons
+		
+		buyBtn.setToggleGroup(group);
+		buyBtn.setUserData("BUY");
+		sellBtn.setToggleGroup(group);
+		sellBtn.setUserData("SELL");
