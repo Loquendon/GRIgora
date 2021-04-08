@@ -36,3 +36,17 @@ public class CurrentGraph {
 			return formattedDate;
 		}
 		Date date = new Date(l*1000L); // *1000 is to convert seconds to milliseconds
+		SimpleDateFormat sdf = new SimpleDateFormat("HH:mm:ss"); // the format of your date
+		String formattedDate = sdf.format(date);
+		return formattedDate;
+		
+		
+	}
+	public static void setUpdateInProgress (boolean b){
+		updateInProgress = b;
+	}
+	public static boolean getUpdateInProgress(){
+		return updateInProgress;
+	}
+
+}
