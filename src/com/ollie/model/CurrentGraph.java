@@ -22,3 +22,17 @@ public class CurrentGraph {
 	}
 	public static int getCurrentGraphPointCount(){
 		return currentGraphPointCount;
+	}
+	public static void setCurrentGraphPointCount(int i){
+		currentGraphPointCount = i;
+	}
+	public static String getTimeStamp(Long l){
+		
+		
+		if( CurrentGraph.getCurrentGraphInterval().equals(FXClient.INTERVAL_1_DAY)){
+			Date date = new Date(l*1000L); // *1000 is to convert seconds to milliseconds
+			SimpleDateFormat sdf = new SimpleDateFormat("MM-dd"); // the format of your date
+			String formattedDate = sdf.format(date);
+			return formattedDate;
+		}
+		Date date = new Date(l*1000L); // *1000 is to convert seconds to milliseconds
