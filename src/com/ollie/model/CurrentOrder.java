@@ -8,4 +8,4 @@ import com.oanda.fxtrade.api.Account;
 import com.oanda.fxtrade.api.FXClient;
 import com.oanda.fxtrade.api.MarketOrder;
 import com.oanda.fxtrade.api.OAException;
-import
+import com.oanda.fxtrade.api.StopL
