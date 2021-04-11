@@ -7,4 +7,5 @@ import com.oanda.fxtrade.api.FXPair;
 import com.oanda.fxtrade.api.Account;
 import com.oanda.fxtrade.api.FXClient;
 import com.oanda.fxtrade.api.MarketOrder;
-import com.oanda.fxtra
+import com.oanda.fxtrade.api.OAException;
+import
