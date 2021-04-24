@@ -13,4 +13,4 @@ import com.oanda.fxtrade.api.TakeProfitOrder;
 import com.oanda.fxtrade.api.User;
 import com.ollie.controller.MainController;
 
-public class 
+public class CurrentOrder {
