@@ -11,4 +11,6 @@ import com.oanda.fxtrade.api.OAException;
 import com.oanda.fxtrade.api.StopLossOrder;
 import com.oanda.fxtrade.api.TakeProfitOrder;
 import com.oanda.fxtrade.api.User;
-import com.ollie.controller.MainControll
+import com.ollie.controller.MainController;
+
+public class 
