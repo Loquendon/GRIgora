@@ -14,3 +14,5 @@ import com.oanda.fxtrade.api.User;
 import com.ollie.controller.MainController;
 
 public class CurrentOrder {
+	
+	private static M
