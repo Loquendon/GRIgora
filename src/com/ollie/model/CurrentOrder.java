@@ -15,4 +15,4 @@ import com.ollie.controller.MainController;
 
 public class CurrentOrder {
 	
-	private static M
+	private static MarketOrder thisO
