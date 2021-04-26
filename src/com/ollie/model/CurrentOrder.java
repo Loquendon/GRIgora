@@ -18,4 +18,4 @@ public class CurrentOrder {
 	private static MarketOrder thisOrder = API.createMarketOrder();
 	private static FXPair fxpair = API.createFXPair();
 	
-	public void setUnits(String unit
+	public void setUnits(String units, String buysell
