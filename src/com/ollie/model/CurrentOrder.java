@@ -16,4 +16,5 @@ import com.ollie.controller.MainController;
 public class CurrentOrder {
 	
 	private static MarketOrder thisOrder = API.createMarketOrder();
-	private static FXPair fxpair = 
+	private static FXPair fxpair = API.createFXPair();
+	
