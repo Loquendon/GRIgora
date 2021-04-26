@@ -15,4 +15,5 @@ import com.ollie.controller.MainController;
 
 public class CurrentOrder {
 	
-	private static MarketOrder thisOrder = API.createMarketOrder
+	private static MarketOrder thisOrder = API.createMarketOrder();
+	private sta
