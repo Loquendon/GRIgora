@@ -18,3 +18,4 @@ public class CurrentOrder {
 	private static MarketOrder thisOrder = API.createMarketOrder();
 	private static FXPair fxpair = API.createFXPair();
 	
+	public void set
