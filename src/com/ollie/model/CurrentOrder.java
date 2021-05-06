@@ -20,4 +20,4 @@ public class CurrentOrder {
 	
 	public void setUnits(String units, String buysell){
 		
-		long uni
+		long unitsLong = Long.parseL
