@@ -22,4 +22,5 @@ public class CurrentOrder {
 		
 		long unitsLong = Long.parseLong(units);
 		
-		if(buysell == "SELL" || buy
+		if(buysell == "SELL" || buysell.equals("SELL")){
+			un
