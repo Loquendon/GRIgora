@@ -24,4 +24,7 @@ public class CurrentOrder {
 		
 		if(buysell == "SELL" || buysell.equals("SELL")){
 			unitsLong = -unitsLong;
-			System.out.println("neg units - " + unit
+			System.out.println("neg units - " + unitsLong);
+		}
+		
+		t
