@@ -27,4 +27,6 @@ public class CurrentOrder {
 			System.out.println("neg units - " + unitsLong);
 		}
 		
-		thisOrder.setUnits(un
+		thisOrder.setUnits(unitsLong);
+	}
+	public vo
