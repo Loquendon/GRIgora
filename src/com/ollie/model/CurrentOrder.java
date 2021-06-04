@@ -30,3 +30,4 @@ public class CurrentOrder {
 		thisOrder.setUnits(unitsLong);
 	}
 	public void setPair(String pair){
+		fxpair.setPair(pa
