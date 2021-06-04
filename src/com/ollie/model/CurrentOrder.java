@@ -29,4 +29,4 @@ public class CurrentOrder {
 		
 		thisOrder.setUnits(unitsLong);
 	}
-	public vo
+	public void setPair(String pair){
