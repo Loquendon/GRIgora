@@ -33,4 +33,6 @@ public class CurrentOrder {
 		fxpair.setPair(pair);
 		thisOrder.setPair(fxpair);
 	}
-	public void set
+	public void setTP(String tp){
+		
+	
