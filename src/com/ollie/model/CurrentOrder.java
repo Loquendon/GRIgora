@@ -35,4 +35,6 @@ public class CurrentOrder {
 	}
 	public void setTP(String tp){
 		
-		if(!tp.equals("")|| !tp.equal
+		if(!tp.equals("")|| !tp.equals(null)){
+			
+	
