@@ -37,4 +37,5 @@ public class CurrentOrder {
 		
 		if(!tp.equals("")|| !tp.equals(null)){
 			
-			double tpDouble = Double.par
+			double tpDouble = Double.parseDouble(tp);
+			
