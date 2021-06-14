@@ -37,4 +37,4 @@ public class CurrentOrder {
 		
 		if(!tp.equals("")|| !tp.equals(null)){
 			
-			double tpDo
+			double tpDouble = Double.par
