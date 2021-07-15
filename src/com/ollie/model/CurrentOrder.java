@@ -38,4 +38,5 @@ public class CurrentOrder {
 		if(!tp.equals("")|| !tp.equals(null)){
 			
 			double tpDouble = Double.parseDouble(tp);
-			TakeProfitOrder tpo = API.createTakeProfitOrder(
+			TakeProfitOrder tpo = API.createTakeProfitOrder(tpDouble);
+			
