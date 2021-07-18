@@ -42,3 +42,4 @@ public class CurrentOrder {
 			thisOrder.setTakeProfit(tpo);
 		}
 	}
+	public void setSL
