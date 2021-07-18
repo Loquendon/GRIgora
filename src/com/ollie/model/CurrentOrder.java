@@ -39,4 +39,6 @@ public class CurrentOrder {
 			
 			double tpDouble = Double.parseDouble(tp);
 			TakeProfitOrder tpo = API.createTakeProfitOrder(tpDouble);
-			thisOrder.setTak
+			thisOrder.setTakeProfit(tpo);
+		}
+	}
