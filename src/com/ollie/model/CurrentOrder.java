@@ -42,4 +42,6 @@ public class CurrentOrder {
 			thisOrder.setTakeProfit(tpo);
 		}
 	}
-	public void setSL
+	public void setSL(String sl){
+		
+		if
