@@ -44,4 +44,5 @@ public class CurrentOrder {
 	}
 	public void setSL(String sl){
 		
-		if(!sl.equals("")
+		if(!sl.equals("")|| !sl.equals(null)){
+			
