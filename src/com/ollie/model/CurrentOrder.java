@@ -47,4 +47,4 @@ public class CurrentOrder {
 		if(!sl.equals("")|| !sl.equals(null)){
 			
 			double slDouble = Double.parseDouble(sl);
-			StopLossOrder slo = API.createSt
+			StopLossOrder slo = API.createStopLossOrder(slDouble)
