@@ -46,4 +46,5 @@ public class CurrentOrder {
 		
 		if(!sl.equals("")|| !sl.equals(null)){
 			
-			double slDouble = Double.parseDouble
+			double slDouble = Double.parseDouble(sl);
+			StopLossOrder 
