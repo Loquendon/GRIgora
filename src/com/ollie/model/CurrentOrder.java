@@ -46,4 +46,4 @@ public class CurrentOrder {
 		
 		if(!sl.equals("")|| !sl.equals(null)){
 			
-			double slDouble =
+			double slDouble = Double.parseDouble
