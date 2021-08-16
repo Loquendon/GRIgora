@@ -48,4 +48,6 @@ public class CurrentOrder {
 			
 			double slDouble = Double.parseDouble(sl);
 			StopLossOrder slo = API.createStopLossOrder(slDouble);
-			thisOrder.setStop
+			thisOrder.setStopLoss(slo);
+		}
+	}
