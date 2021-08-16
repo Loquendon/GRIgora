@@ -51,4 +51,6 @@ public class CurrentOrder {
 			thisOrder.setStopLoss(slo);
 		}
 	}
-	public void exec
+	public void executeOrder(){
+		
+		try
