@@ -53,4 +53,5 @@ public class CurrentOrder {
 	}
 	public void executeOrder(){
 		
-		try
+		try {
+			FXClient fx
