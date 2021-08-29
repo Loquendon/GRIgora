@@ -57,4 +57,4 @@ public class CurrentOrder {
 			FXClient fxclient = Login.returnFXClient();
 			User me = fxclient.getUser();
 			Vector<Account> accounts = me.getAccounts();
-	
+			Account myaccount = 
