@@ -55,4 +55,4 @@ public class CurrentOrder {
 		
 		try {
 			FXClient fxclient = Login.returnFXClient();
-		
+			User me = fxclient.get
