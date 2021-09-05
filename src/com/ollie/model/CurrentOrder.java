@@ -59,4 +59,4 @@ public class CurrentOrder {
 			Vector<Account> accounts = me.getAccounts();
 			Account myaccount =  accounts.firstElement();
 			System.out.println("Account ID: " + myaccount.getAccountId());
-			myaccount.ex
+			myaccount.execute(thisOrder)
