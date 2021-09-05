@@ -58,4 +58,4 @@ public class CurrentOrder {
 			User me = fxclient.getUser();
 			Vector<Account> accounts = me.getAccounts();
 			Account myaccount =  accounts.firstElement();
-			System.out.pr
+			System.out.println("Account ID: " +
