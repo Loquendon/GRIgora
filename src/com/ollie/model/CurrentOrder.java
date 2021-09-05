@@ -61,4 +61,5 @@ public class CurrentOrder {
 			System.out.println("Account ID: " + myaccount.getAccountId());
 			myaccount.execute(thisOrder);
 			
-		} catch (O
+		} catch (OAException e) {
+			// T
