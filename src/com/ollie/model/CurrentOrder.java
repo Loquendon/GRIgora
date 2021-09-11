@@ -63,4 +63,5 @@ public class CurrentOrder {
 			
 		} catch (OAException e) {
 			// TODO Auto-generated catch block
-	
+			e.printStackTrace();
+		}
