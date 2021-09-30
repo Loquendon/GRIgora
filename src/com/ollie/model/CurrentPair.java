@@ -4,4 +4,4 @@ import java.util.Vector;
 
 import com.oanda.fxtrade.api.API;
 import com.oanda.fxtrade.api.FXClient;
-import com.oanda
+import com.oanda.fxtrade.api.FXHistoryP
