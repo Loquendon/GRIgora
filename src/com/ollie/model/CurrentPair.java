@@ -8,4 +8,4 @@ import com.oanda.fxtrade.api.FXHistoryPoint;
 import com.oanda.fxtrade.api.FXPair;
 import com.oanda.fxtrade.api.OAException;
 
-publi
+public class CurrentPai
