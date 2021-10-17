@@ -10,4 +10,4 @@ import com.oanda.fxtrade.api.OAException;
 
 public class CurrentPair {
 
-	private 
+	private static String currentPair = "
