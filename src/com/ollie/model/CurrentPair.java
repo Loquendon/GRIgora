@@ -11,4 +11,5 @@ import com.oanda.fxtrade.api.OAException;
 public class CurrentPair {
 
 	private static String currentPair = "GBP/USD";
-	private static FXPa
+	private static FXPair p;
+	private s
