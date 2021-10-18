@@ -12,4 +12,4 @@ public class CurrentPair {
 
 	private static String currentPair = "GBP/USD";
 	private static FXPair p;
-	private s
+	private static Vector<FXHistoryPoi
