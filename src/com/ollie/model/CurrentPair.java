@@ -13,4 +13,4 @@ public class CurrentPair {
 	private static String currentPair = "GBP/USD";
 	private static FXPair p;
 	private static Vector<FXHistoryPoint> fiveSecVector = new Vector<FXHistoryPoint>();
-	private static Vector<FXHistoryPoint> thirtySecVector = 
+	private static Vector<FXHistoryPoint> thirtySecVector = new Vector<FXHistoryPoin
