@@ -15,4 +15,4 @@ public class CurrentPair {
 	private static Vector<FXHistoryPoint> fiveSecVector = new Vector<FXHistoryPoint>();
 	private static Vector<FXHistoryPoint> thirtySecVector = new Vector<FXHistoryPoint>();
 	private static Vector<FXHistoryPoint> oneMinVector = new Vector<FXHistoryPoint>();
-	private static Vector<FXHistoryPoint> fiveMinVe
+	private static Vector<FXHistoryPoint> fiveMinVector = new Vector<
