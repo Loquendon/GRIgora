@@ -19,4 +19,4 @@ public class CurrentPair {
 	private static Vector<FXHistoryPoint> oneHourVector = new Vector<FXHistoryPoint>();
 	private static Vector<FXHistoryPoint> oneDayVector = new Vector<FXHistoryPoint>();
 	
-	public static void 
+	public static void setCurrentPair(St
