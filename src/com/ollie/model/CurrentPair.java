@@ -20,4 +20,4 @@ public class CurrentPair {
 	private static Vector<FXHistoryPoint> oneDayVector = new Vector<FXHistoryPoint>();
 	
 	public static void setCurrentPair(String pair){
-		c
+		currentPair = pair;
