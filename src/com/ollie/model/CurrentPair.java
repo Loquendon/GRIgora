@@ -21,4 +21,7 @@ public class CurrentPair {
 	
 	public static void setCurrentPair(String pair){
 		currentPair = pair;
-		initCurrentPair()
+		initCurrentPair();
+	}
+	
+	public stati
