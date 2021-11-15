@@ -24,4 +24,4 @@ public class CurrentPair {
 		initCurrentPair();
 	}
 	
-	public stati
+	public static String getCurren
