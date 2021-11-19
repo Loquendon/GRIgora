@@ -25,4 +25,7 @@ public class CurrentPair {
 	}
 	
 	public static String getCurrentPair(){
-		return current
+		return currentPair;
+	}
+	
+	pub
