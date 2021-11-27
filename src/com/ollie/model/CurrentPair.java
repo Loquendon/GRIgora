@@ -28,4 +28,6 @@ public class CurrentPair {
 		return currentPair;
 	}
 	
-	public static void initC
+	public static void initCurrentPair(){
+		
+		F
