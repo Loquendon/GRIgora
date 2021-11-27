@@ -30,4 +30,5 @@ public class CurrentPair {
 	
 	public static void initCurrentPair(){
 		
-		FXPair pr = API.crea
+		FXPair pr = API.createFXPair();
+		pr
