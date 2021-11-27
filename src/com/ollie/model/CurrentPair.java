@@ -28,4 +28,4 @@ public class CurrentPair {
 		return currentPair;
 	}
 	
-	pub
+	public static void initC
