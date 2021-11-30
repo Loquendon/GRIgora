@@ -36,3 +36,4 @@ public class CurrentPair {
 		updateHistories();
 	}
 	
+	@SuppressWarn
