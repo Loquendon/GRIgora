@@ -33,4 +33,6 @@ public class CurrentPair {
 		FXPair pr = API.createFXPair();
 		pr.setPair(currentPair);
 		p = pr;
-		upda
+		updateHistories();
+	}
+	
