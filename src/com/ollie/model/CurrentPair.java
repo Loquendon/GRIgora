@@ -39,4 +39,4 @@ public class CurrentPair {
 	@SuppressWarnings("unchecked")
 	public static void updateHistories(){
 			
-		FXClient fxclient 
+		FXClient fxclient = Login.returnFXC
