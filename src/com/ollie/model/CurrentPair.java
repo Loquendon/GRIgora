@@ -37,4 +37,6 @@ public class CurrentPair {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public static void updateHistories(
+	public static void updateHistories(){
+			
+		FXClient fxclient 
