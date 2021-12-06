@@ -36,4 +36,5 @@ public class CurrentPair {
 		updateHistories();
 	}
 	
-	@SuppressWarnings("unchecked
+	@SuppressWarnings("unchecked")
+	public static v
