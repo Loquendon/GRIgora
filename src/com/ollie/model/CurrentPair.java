@@ -41,4 +41,6 @@ public class CurrentPair {
 			
 		FXClient fxclient = Login.returnFXClient();
 		
-			t
+			try {
+				
+				fiveSec
