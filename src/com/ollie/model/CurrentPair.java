@@ -43,4 +43,5 @@ public class CurrentPair {
 		
 			try {
 				
-				fiveSec
+				fiveSecVector.clear();
+	
