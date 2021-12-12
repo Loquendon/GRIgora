@@ -46,4 +46,5 @@ public class CurrentPair {
 				fiveSecVector.clear();
 				thirtySecVector.clear();
 				oneMinVector.clear();
-				fi
+				fiveMinVector.clear();
+			
