@@ -48,4 +48,4 @@ public class CurrentPair {
 				oneMinVector.clear();
 				fiveMinVector.clear();
 				oneHourVector.clear();
-				
+				oneDayVector.
