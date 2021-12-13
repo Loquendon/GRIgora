@@ -49,4 +49,5 @@ public class CurrentPair {
 				fiveMinVector.clear();
 				oneHourVector.clear();
 				oneDayVector.clear();
-			
+				
+				fiveSecVector.addA
