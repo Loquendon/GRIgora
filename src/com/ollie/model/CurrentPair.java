@@ -50,4 +50,4 @@ public class CurrentPair {
 				oneHourVector.clear();
 				oneDayVector.clear();
 				
-				fiveSecVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_5_SEC, CurrentGra
+				fiveSecVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_5_SEC, CurrentGraph.getCurrentGraph
