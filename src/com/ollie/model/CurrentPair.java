@@ -55,4 +55,4 @@ public class CurrentPair {
 				oneMinVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_1_MIN, CurrentGraph.getCurrentGraphPointCount()));
 				fiveMinVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_5_MIN, CurrentGraph.getCurrentGraphPointCount()));
 				oneHourVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_1_HOUR, CurrentGraph.getCurrentGraphPointCount()));
-				oneDayVector.addAll(fxclient.getRateTable().getHistory(
+				oneDayVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTER
