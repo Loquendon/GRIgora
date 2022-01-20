@@ -57,4 +57,5 @@ public class CurrentPair {
 				oneHourVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_1_HOUR, CurrentGraph.getCurrentGraphPointCount()));
 				oneDayVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_1_DAY, CurrentGraph.getCurrentGraphPointCount()));
 				
-			} catch (OAExc
+			} catch (OAException e) {
+			
