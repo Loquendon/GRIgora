@@ -59,4 +59,7 @@ public class CurrentPair {
 				
 			} catch (OAException e) {
 				e.printStackTrace();
-	
+			}
+				
+	}
+	publ
