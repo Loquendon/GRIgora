@@ -58,4 +58,5 @@ public class CurrentPair {
 				oneDayVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_1_DAY, CurrentGraph.getCurrentGraphPointCount()));
 				
 			} catch (OAException e) {
-			
+				e.printStackTrace();
+	
