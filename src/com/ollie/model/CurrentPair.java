@@ -62,4 +62,4 @@ public class CurrentPair {
 			}
 				
 	}
-	publ
+	public static Vector<FXHist
