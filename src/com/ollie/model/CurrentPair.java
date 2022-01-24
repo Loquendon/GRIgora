@@ -62,4 +62,4 @@ public class CurrentPair {
 			}
 				
 	}
-	public static Vector<FXHist
+	public static Vector<FXHistoryPoint> get
