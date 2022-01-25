@@ -64,4 +64,5 @@ public class CurrentPair {
 	}
 	public static Vector<FXHistoryPoint> getHistoryVector(Long interval){
 		
-		 if(interval == FXClient.INTERVAL_5_SE
+		 if(interval == FXClient.INTERVAL_5_SEC) return fiveSecVector;
+	
