@@ -63,3 +63,5 @@ public class CurrentPair {
 				
 	}
 	public static Vector<FXHistoryPoint> getHistoryVector(Long interval){
+		
+		 if(interval ==
