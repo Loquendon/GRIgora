@@ -62,4 +62,4 @@ public class CurrentPair {
 			}
 				
 	}
-	public static Vector<FXHistoryPoint> getHistoryVector(
+	public static Vector<FXHistoryPoint> getHistoryVector(Long interval){
