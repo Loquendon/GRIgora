@@ -69,4 +69,4 @@ public class CurrentPair {
 		 if(interval == FXClient.INTERVAL_1_MIN) return oneMinVector;
 		 if(interval == FXClient.INTERVAL_5_MIN) return fiveMinVector;
 		 if(interval == FXClient.INTERVAL_1_HOUR) return oneHourVector;
-		 if(interval == FXCl
+		 if(interval == FXClient.INTERVAL_1_DAY) retu
