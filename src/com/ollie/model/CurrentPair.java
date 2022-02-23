@@ -68,4 +68,4 @@ public class CurrentPair {
 		 if(interval == FXClient.INTERVAL_30_SEC) return thirtySecVector;
 		 if(interval == FXClient.INTERVAL_1_MIN) return oneMinVector;
 		 if(interval == FXClient.INTERVAL_5_MIN) return fiveMinVector;
-		 if(interval == FXClient.INTE
+		 if(interval == FXClient.INTERVAL_1_HOUR) re
