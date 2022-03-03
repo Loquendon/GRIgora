@@ -70,4 +70,7 @@ public class CurrentPair {
 		 if(interval == FXClient.INTERVAL_5_MIN) return fiveMinVector;
 		 if(interval == FXClient.INTERVAL_1_HOUR) return oneHourVector;
 		 if(interval == FXClient.INTERVAL_1_DAY) return oneDayVector;
-		 return nu
+		 return null;
+	}
+	
+	@SuppressWarni
