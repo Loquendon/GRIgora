@@ -73,4 +73,4 @@ public class CurrentPair {
 		 return null;
 	}
 	
-	@SuppressWarni
+	@SuppressWarnings("unchecked")
