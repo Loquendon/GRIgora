@@ -74,4 +74,6 @@ public class CurrentPair {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public static void updateHistory(Long int
+	public static void updateHistory(Long interval){
+		
+		FXClient fxc
