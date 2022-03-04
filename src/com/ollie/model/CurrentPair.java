@@ -74,4 +74,4 @@ public class CurrentPair {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public static void 
+	public static void updateHistory(Long int
