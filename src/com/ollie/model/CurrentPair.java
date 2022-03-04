@@ -76,4 +76,4 @@ public class CurrentPair {
 	@SuppressWarnings("unchecked")
 	public static void updateHistory(Long interval){
 		
-		FXClient fxc
+		FXClient fxclient = Login
