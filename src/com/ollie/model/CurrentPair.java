@@ -74,3 +74,4 @@ public class CurrentPair {
 	}
 	
 	@SuppressWarnings("unchecked")
+	public static void 
