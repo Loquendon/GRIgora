@@ -76,4 +76,6 @@ public class CurrentPair {
 	@SuppressWarnings("unchecked")
 	public static void updateHistory(Long interval){
 		
-		FXClient fxclient = Login
+		FXClient fxclient = Login.returnFXClient();
+		
+		
