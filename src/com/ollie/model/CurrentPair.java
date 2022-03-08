@@ -78,4 +78,6 @@ public class CurrentPair {
 		
 		FXClient fxclient = Login.returnFXClient();
 		
-		
+		try {
+			
+			if(inte
