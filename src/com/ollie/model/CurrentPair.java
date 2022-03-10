@@ -81,3 +81,4 @@ public class CurrentPair {
 		try {
 			
 			if(interval == FXClient.INTERVAL_5_SEC){
+				fiveSecVector
