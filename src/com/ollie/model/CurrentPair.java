@@ -80,4 +80,4 @@ public class CurrentPair {
 		
 		try {
 			
-			if(interval == FXClient.
+			if(interval == FXClient.INTERVAL_5_SEC){
