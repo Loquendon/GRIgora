@@ -80,4 +80,4 @@ public class CurrentPair {
 		
 		try {
 			
-			if(inte
+			if(interval == FXClient.
