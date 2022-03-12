@@ -82,4 +82,4 @@ public class CurrentPair {
 			
 			if(interval == FXClient.INTERVAL_5_SEC){
 				fiveSecVector.clear();
-				fiveSecVecto
+				fiveSecVector.addAll(fxclient.getRateT
