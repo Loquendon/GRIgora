@@ -86,4 +86,4 @@ public class CurrentPair {
 			}
 			else if(interval == FXClient.INTERVAL_30_SEC){
 				thirtySecVector.clear();
-				thirtySec
+				thirtySecVector.addAll(fxclie
