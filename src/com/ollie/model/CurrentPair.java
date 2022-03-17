@@ -85,4 +85,4 @@ public class CurrentPair {
 				fiveSecVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_5_SEC, CurrentGraph.getCurrentGraphPointCount()));
 			}
 			else if(interval == FXClient.INTERVAL_30_SEC){
-				t
+				thirtySecVector.clear
