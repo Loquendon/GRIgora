@@ -86,4 +86,4 @@ public class CurrentPair {
 			}
 			else if(interval == FXClient.INTERVAL_30_SEC){
 				thirtySecVector.clear();
-				thirtySecVector.addAll(fxclient.getRateTable().getHistory(p, FX
+				thirtySecVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_
