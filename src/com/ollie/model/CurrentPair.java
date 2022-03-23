@@ -90,3 +90,4 @@ public class CurrentPair {
 			}
 			else if(interval == FXClient.INTERVAL_1_MIN){
 				oneMinVector.clear();
+				oneMinV
