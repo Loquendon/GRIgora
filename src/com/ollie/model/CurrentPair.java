@@ -90,4 +90,4 @@ public class CurrentPair {
 			}
 			else if(interval == FXClient.INTERVAL_1_MIN){
 				oneMinVector.clear();
-				oneMinVector.addAll(fxclient.getRateTa
+				oneMinVector.addAll(fxclient.getRateTable().getHistory(p, 
