@@ -90,4 +90,6 @@ public class CurrentPair {
 			}
 			else if(interval == FXClient.INTERVAL_1_MIN){
 				oneMinVector.clear();
-				oneMinVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_1_MIN, CurrentGraph.getCurrent
+				oneMinVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_1_MIN, CurrentGraph.getCurrentGraphPointCount()));
+			}
+			e
