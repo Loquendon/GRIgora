@@ -96,3 +96,4 @@ public class CurrentPair {
 				fiveMinVector.clear();
 				fiveMinVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_5_MIN, CurrentGraph.getCurrentGraphPointCount()));
 			}
+			else if(interval == FXCli
