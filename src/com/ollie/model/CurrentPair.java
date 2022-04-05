@@ -98,4 +98,4 @@ public class CurrentPair {
 			}
 			else if(interval == FXClient.INTERVAL_1_HOUR){
 				oneHourVector.clear();
-				oneHourVec
+				oneHourVector.addAll(fxclien
