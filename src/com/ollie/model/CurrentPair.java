@@ -101,4 +101,5 @@ public class CurrentPair {
 				oneHourVector.addAll(fxclient.getRateTable().getHistory(p, FXClient.INTERVAL_1_HOUR, CurrentGraph.getCurrentGraphPointCount()));
 			}
 			else if(interval == FXClient.INTERVAL_1_DAY){
-				one
+				oneDayVector.clear();
+				o
