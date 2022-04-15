@@ -102,4 +102,4 @@ public class CurrentPair {
 			}
 			else if(interval == FXClient.INTERVAL_1_DAY){
 				oneDayVector.clear();
-				oneDayVector.addAll(fxc
+				oneDayVector.addAll(fxclient.getR
