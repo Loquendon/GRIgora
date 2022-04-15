@@ -102,4 +102,4 @@ public class CurrentPair {
 			}
 			else if(interval == FXClient.INTERVAL_1_DAY){
 				oneDayVector.clear();
-				oneDayVector.addAll(fxclient.getR
+				oneDayVector.addAll(fxclient.getRateTable().getHist
