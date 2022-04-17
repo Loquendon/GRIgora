@@ -1,1 +1,1 @@
-package com
+package com.ollie.model;
