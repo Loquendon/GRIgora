@@ -2,4 +2,4 @@ package com.ollie.model;
 
 import java.util.Vector;
 
-im
+import com.oanda.fxtrade.
