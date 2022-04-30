@@ -8,4 +8,6 @@ import com.ollie.controller.MainController;
 
 import javafx.scene.chart.XYChart;
 
-public class GraphUpdater impleme
+public class GraphUpdater implements  Runnable {
+		
+	
