@@ -6,4 +6,6 @@ import com.oanda.fxtrade.api.API;
 import com.oanda.fxtrade.api.FXHistoryPoint;
 import com.ollie.controller.MainController;
 
-import javafx.scene.chart.XYC
+import javafx.scene.chart.XYChart;
+
+public c
