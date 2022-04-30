@@ -10,4 +10,5 @@ import javafx.scene.chart.XYChart;
 
 public class GraphUpdater implements  Runnable {
 		
-	
+	@Override
+    
