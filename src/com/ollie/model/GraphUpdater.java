@@ -13,3 +13,4 @@ public class GraphUpdater implements  Runnable {
 	@Override
     public void run() {
                 
+		MainController.initGr
