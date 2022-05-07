@@ -15,4 +15,4 @@ public class GraphUpdater implements  Runnable {
                 
 		MainController.initGraph();
 		
-		int
+		int count = CurrentGraph.get
