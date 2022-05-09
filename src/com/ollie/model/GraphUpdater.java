@@ -19,4 +19,5 @@ public class GraphUpdater implements  Runnable {
 		Long interval = CurrentGraph.getCurrentGraphInterval();
 		
 		
-      
+        do {
+        	//check
