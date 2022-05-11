@@ -20,4 +20,4 @@ public class GraphUpdater implements  Runnable {
 		
 		
         do {
-        	//check
+        	//checks to see if point 
