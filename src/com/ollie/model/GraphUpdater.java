@@ -23,4 +23,4 @@ public class GraphUpdater implements  Runnable {
         	//checks to see if point count or interval has been updated
         	int cmp = Integer.compare(count, CurrentGraph.getCurrentGraphPointCount());
         	
-        	if( cm
+        	if( cmp < 0 || cmp > 
