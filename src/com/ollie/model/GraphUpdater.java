@@ -24,4 +24,5 @@ public class GraphUpdater implements  Runnable {
         	int cmp = Integer.compare(count, CurrentGraph.getCurrentGraphPointCount());
         	
         	if( cmp < 0 || cmp > 0 || !interval.equals(CurrentGraph.getCurrentGraphInterval())){
-        
+        		
+        		MainC
