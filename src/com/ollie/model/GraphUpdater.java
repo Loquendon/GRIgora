@@ -27,4 +27,4 @@ public class GraphUpdater implements  Runnable {
         		
         		MainController.initGraph();
         		interval = CurrentGraph.getCurrentGraphInterval();
-        		count =  C
+        		count =  CurrentGraph.getCu
