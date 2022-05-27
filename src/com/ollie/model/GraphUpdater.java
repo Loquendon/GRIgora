@@ -26,4 +26,4 @@ public class GraphUpdater implements  Runnable {
         	if( cmp < 0 || cmp > 0 || !interval.equals(CurrentGraph.getCurrentGraphInterval())){
         		
         		MainController.initGraph();
-   
+        		interval = Current
