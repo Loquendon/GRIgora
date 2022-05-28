@@ -29,4 +29,6 @@ public class GraphUpdater implements  Runnable {
         		interval = CurrentGraph.getCurrentGraphInterval();
         		count =  CurrentGraph.getCurrentGraphPointCount();  //if has re init graoh and update count/interval
         	}
-       
+        	
+        	
+      
