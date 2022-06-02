@@ -31,4 +31,4 @@ public class GraphUpdater implements  Runnable {
         	}
         	
         	
-        	//updates gr
+        	//updates graph and wai
