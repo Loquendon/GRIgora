@@ -31,4 +31,5 @@ public class GraphUpdater implements  Runnable {
         	}
         	
         	
-        	//updates graph and wai
+        	//updates graph and waits 5 seconds
+       
