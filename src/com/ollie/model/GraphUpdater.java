@@ -36,4 +36,4 @@ public class GraphUpdater implements  Runnable {
         	
         	try {
 				Thread.sleep(CurrentGraph.getCurrentGraphInterval());
-			}
+			} catch (Interrupt
