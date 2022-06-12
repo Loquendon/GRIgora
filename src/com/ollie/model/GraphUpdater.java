@@ -35,4 +35,4 @@ public class GraphUpdater implements  Runnable {
         	MainController.updateGraph();
         	
         	try {
-			
+				Thread.sleep(Current
