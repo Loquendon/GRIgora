@@ -35,4 +35,5 @@ public class GraphUpdater implements  Runnable {
         	MainController.updateGraph();
         	
         	try {
-				Thread.sleep(CurrentGraph.getCurrentGraphInt
+				Thread.sleep(CurrentGraph.getCurrentGraphInterval());
+			}
