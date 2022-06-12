@@ -37,4 +37,7 @@ public class GraphUpdater implements  Runnable {
         	try {
 				Thread.sleep(CurrentGraph.getCurrentGraphInterval());
 			} catch (InterruptedException e) {
-				e.printStackTra
+				e.printStackTrace();
+			}
+        	
+ 
