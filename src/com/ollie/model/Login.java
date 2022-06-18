@@ -41,3 +41,23 @@ public class Login {
 		fxclient.createKeepAliveThread(true);
 	}
 	public static String getAccountName(){
+		try {
+			return fxclient.getUser().getUserName();
+		} catch (SessionException e) {
+			e.printStackTrace();
+		}
+		return null;
+	}
+	@SuppressWarnings("unchecked")
+	public static double getBalance(){
+		User me;
+		try {
+			me = fxclient.getUser();
+			Vector<Account> accounts = me.getAccounts();
+			Account myaccount = (Account)accounts.firstElement();
+			return myaccount.getBalance();
+			
+		} catch (SessionException | AccountException e) {
+			e.printStackTrace();
+		}
+		
