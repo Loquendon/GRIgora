@@ -26,3 +26,18 @@ public class Login {
 		
 		try { fxclient.login(user, pass); }
 		catch (SessionException e) { return -1; }
+		catch (InvalidUserException e) { return -2; }
+		catch (InvalidPasswordException e) { return -3; }
+		catch (MultiFactorAuthenticationException e){return -4;}
+			
+		return 1;
+		
+	}
+	
+	public static FXClient returnFXClient(){
+		return fxclient;
+	}
+	public static void createKeepAlive(){
+		fxclient.createKeepAliveThread(true);
+	}
+	public static String getAccountName(){
