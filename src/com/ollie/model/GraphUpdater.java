@@ -41,4 +41,6 @@ public class GraphUpdater implements  Runnable {
 			}
         	
         }
-        whi
+        while(true);
+    }
+}
