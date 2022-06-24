@@ -1,4 +1,5 @@
 package com.ollie.model;
 
 import java.text.DecimalFormat;
-import java.text.SimpleDateForm
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
