@@ -9,4 +9,5 @@ import java.util.Vector;
 
 import com.oanda.fxtrade.api.Account;
 import com.oanda.fxtrade.api.FXClient;
-import com.oanda.fxtrade.api.Mar
+import com.oanda.fxtrade.api.MarketOrder;
+i
