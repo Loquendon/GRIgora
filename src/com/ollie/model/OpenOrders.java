@@ -13,4 +13,6 @@ import com.oanda.fxtrade.api.MarketOrder;
 import com.oanda.fxtrade.api.OAException;
 import com.oanda.fxtrade.api.RateTableException;
 import com.oanda.fxtrade.api.SessionException;
-import com.oanda.
+import com.oanda.fxtrade.api.User;
+
+import j
