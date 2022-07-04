@@ -16,4 +16,5 @@ import com.oanda.fxtrade.api.SessionException;
 import com.oanda.fxtrade.api.User;
 
 import javafx.scene.control.Button;
-impor
+import javafx.scene.paint.Color;
+
