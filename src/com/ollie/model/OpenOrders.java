@@ -15,4 +15,4 @@ import com.oanda.fxtrade.api.RateTableException;
 import com.oanda.fxtrade.api.SessionException;
 import com.oanda.fxtrade.api.User;
 
-import j
+import javafx.scene.control.
