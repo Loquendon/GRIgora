@@ -20,4 +20,4 @@ import javafx.scene.paint.Color;
 
 public class OpenOrders {
 
-	private static Ve
+	private static Vector<MarketOrder> trade
