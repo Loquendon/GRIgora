@@ -20,4 +20,4 @@ import javafx.scene.paint.Color;
 
 public class OpenOrders {
 
-	priv
+	private static Ve
