@@ -18,3 +18,4 @@ import com.oanda.fxtrade.api.User;
 import javafx.scene.control.Button;
 import javafx.scene.paint.Color;
 
+public class Open
