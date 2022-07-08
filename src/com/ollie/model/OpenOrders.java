@@ -21,4 +21,4 @@ import javafx.scene.paint.Color;
 public class OpenOrders {
 
 	private static Vector<MarketOrder> trades = new Vector<MarketOrder>();
-	private static Ar
+	private static ArrayList<But
