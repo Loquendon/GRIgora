@@ -22,4 +22,4 @@ public class OpenOrders {
 
 	private static Vector<MarketOrder> trades = new Vector<MarketOrder>();
 	private static ArrayList<Button> buttons = new ArrayList<Button>();
-	private static ArrayLis
+	private static ArrayList<String> transact
