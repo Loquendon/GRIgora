@@ -23,4 +23,4 @@ public class OpenOrders {
 	private static Vector<MarketOrder> trades = new Vector<MarketOrder>();
 	private static ArrayList<Button> buttons = new ArrayList<Button>();
 	private static ArrayList<String> transactionID = new ArrayList<String>();
-	private 
+	private static ArrayList<String>
