@@ -24,4 +24,4 @@ public class OpenOrders {
 	private static ArrayList<Button> buttons = new ArrayList<Button>();
 	private static ArrayList<String> transactionID = new ArrayList<String>();
 	private static ArrayList<String> time = new ArrayList<String>();
-	private static ArrayList<String> units = new Arra
+	private static ArrayList<String> units = new ArrayList<String>();
