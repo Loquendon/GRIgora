@@ -26,4 +26,4 @@ public class OpenOrders {
 	private static ArrayList<String> time = new ArrayList<String>();
 	private static ArrayList<String> units = new ArrayList<String>();
 	private static ArrayList<String> pair = new ArrayList<String>();
-	private static ArrayList<Strin
+	private static ArrayList<String> price = new Ar
