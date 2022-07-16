@@ -27,4 +27,4 @@ public class OpenOrders {
 	private static ArrayList<String> units = new ArrayList<String>();
 	private static ArrayList<String> pair = new ArrayList<String>();
 	private static ArrayList<String> price = new ArrayList<String>();
-	private
+	private static ArrayList<St
