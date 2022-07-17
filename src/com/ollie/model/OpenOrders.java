@@ -28,4 +28,5 @@ public class OpenOrders {
 	private static ArrayList<String> pair = new ArrayList<String>();
 	private static ArrayList<String> price = new ArrayList<String>();
 	private static ArrayList<String> stopLoss = new ArrayList<String>();
-	private static ArrayList<String> takeProfit = new Arra
+	private static ArrayList<String> takeProfit = new ArrayList<String>();
+	p
