@@ -30,4 +30,4 @@ public class OpenOrders {
 	private static ArrayList<String> stopLoss = new ArrayList<String>();
 	private static ArrayList<String> takeProfit = new ArrayList<String>();
 	private static ArrayList<String> profitLoss = new ArrayList<String>();
-	private static ArrayList<String> buysell
+	private static ArrayList<String> buysell = new ArrayList<St
