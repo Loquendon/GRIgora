@@ -34,4 +34,4 @@ public class OpenOrders {
 
 	
 	@SuppressWarnings("unchecked")
-	public sta
+	public static void updateOpen
