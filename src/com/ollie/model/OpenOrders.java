@@ -33,4 +33,4 @@ public class OpenOrders {
 	private static ArrayList<String> buysell = new ArrayList<String>();
 
 	
-	@Su
+	@SuppressWarnings("unch
