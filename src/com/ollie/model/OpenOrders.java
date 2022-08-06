@@ -34,4 +34,4 @@ public class OpenOrders {
 
 	
 	@SuppressWarnings("unchecked")
-	public static void updateOpenOrders() throws
+	public static void updateOpenOrders() throws SessionException
