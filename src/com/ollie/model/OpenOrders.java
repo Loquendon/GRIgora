@@ -36,3 +36,5 @@ public class OpenOrders {
 	@SuppressWarnings("unchecked")
 	public static void updateOpenOrders() throws SessionException{
 		trades.clear();
+		buttons.clear();
+		t
