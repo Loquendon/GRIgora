@@ -40,4 +40,6 @@ public class OpenOrders {
 		transactionID.clear();
 		time.clear();
 		units.clear();
-		pair.clear(
+		pair.clear();
+		price.clear();
+		sto
