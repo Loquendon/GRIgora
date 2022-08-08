@@ -39,4 +39,5 @@ public class OpenOrders {
 		buttons.clear();
 		transactionID.clear();
 		time.clear();
-		units.cle
+		units.clear();
+		pair.clear(
