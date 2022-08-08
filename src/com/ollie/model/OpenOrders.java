@@ -37,4 +37,4 @@ public class OpenOrders {
 	public static void updateOpenOrders() throws SessionException{
 		trades.clear();
 		buttons.clear();
-		t
+		transactionID.
