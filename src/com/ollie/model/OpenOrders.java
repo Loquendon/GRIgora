@@ -42,4 +42,5 @@ public class OpenOrders {
 		units.clear();
 		pair.clear();
 		price.clear();
-		sto
+		stopLoss.clear();
+		takeProfi
