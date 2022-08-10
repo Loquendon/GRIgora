@@ -46,3 +46,5 @@ public class OpenOrders {
 		takeProfit.clear();
 		profitLoss.clear();
 		
+		
+		FXClient f
