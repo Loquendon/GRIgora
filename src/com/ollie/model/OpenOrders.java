@@ -47,4 +47,4 @@ public class OpenOrders {
 		profitLoss.clear();
 		
 		
-		FXClient f
+		FXClient fxclient = Login
