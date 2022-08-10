@@ -44,4 +44,5 @@ public class OpenOrders {
 		price.clear();
 		stopLoss.clear();
 		takeProfit.clear();
-		pro
+		profitLoss.clear();
+		
