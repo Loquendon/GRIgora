@@ -50,4 +50,4 @@ public class OpenOrders {
 		FXClient fxclient = Login.returnFXClient();
 		User me = fxclient.getUser();
 		Vector<Account> accounts = me.getAccounts();
-		Account myaccount = (Account
+		Account myaccount = (Account)accounts.firstEle
