@@ -52,4 +52,6 @@ public class OpenOrders {
 		Vector<Account> accounts = me.getAccounts();
 		Account myaccount = (Account)accounts.firstElement();
 		try {
-			trades = myaccount.ge
+			trades = myaccount.getTrades();
+		}
+		
