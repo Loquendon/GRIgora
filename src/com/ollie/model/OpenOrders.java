@@ -58,4 +58,4 @@ public class OpenOrders {
 			System.out.println("Example: caught: " + oe);
 		}
 		
-		for (int
+		for (int i = 0; i < trades.
