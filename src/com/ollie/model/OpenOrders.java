@@ -54,4 +54,4 @@ public class OpenOrders {
 		try {
 			trades = myaccount.getTrades();
 		}
-		
+		catch (OAException o
