@@ -60,4 +60,4 @@ public class OpenOrders {
 		
 		for (int i = 0; i < trades.size(); i++) {
 			
-			Ma
+			MarketOrder mo =
