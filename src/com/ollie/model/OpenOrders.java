@@ -55,4 +55,4 @@ public class OpenOrders {
 			trades = myaccount.getTrades();
 		}
 		catch (OAException oe) {
-			System.out.printl
+			System.out.println("Example: caught: " 
