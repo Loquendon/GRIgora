@@ -62,4 +62,4 @@ public class OpenOrders {
 			
 			MarketOrder mo = trades.get(i);
 			
-			transactionID
+			transactionID.add(Objects.toStri
