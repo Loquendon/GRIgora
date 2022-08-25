@@ -62,4 +62,6 @@ public class OpenOrders {
 			
 			MarketOrder mo = trades.get(i);
 			
-			transactionID.add(Objects.toString(mo.getTransactionNumb
+			transactionID.add(Objects.toString(mo.getTransactionNumber()));
+			
+			Date date
