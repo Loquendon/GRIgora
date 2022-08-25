@@ -64,4 +64,4 @@ public class OpenOrders {
 			
 			transactionID.add(Objects.toString(mo.getTransactionNumber()));
 			
-			Date date
+			Date date = new Date(mo.getTimes
