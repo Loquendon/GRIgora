@@ -67,4 +67,4 @@ public class OpenOrders {
 			Date date = new Date(mo.getTimestamp()*1000L);
 			SimpleDateFormat sdf = new SimpleDateFormat("dd-MM-yyyy HH:mm:ss");
 			String formattedDate = sdf.format(date);
-			time.a
+			time.add(formattedDate
