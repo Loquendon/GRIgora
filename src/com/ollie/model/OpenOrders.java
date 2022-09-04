@@ -70,4 +70,4 @@ public class OpenOrders {
 			time.add(formattedDate);
 			
 			
-			if(mo.g
+			if(mo.getUnits() < 0){
