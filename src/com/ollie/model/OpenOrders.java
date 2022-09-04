@@ -74,3 +74,4 @@ public class OpenOrders {
 				buysell.add("SELL");
 			}
 			else{
+				buysell.add("BUY
