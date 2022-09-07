@@ -78,4 +78,5 @@ public class OpenOrders {
 
 			}
 			
-			long unitslong = mo.ge
+			long unitslong = mo.getUnits();
+			if(unitslo
