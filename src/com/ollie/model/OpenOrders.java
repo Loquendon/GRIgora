@@ -81,4 +81,6 @@ public class OpenOrders {
 			long unitslong = mo.getUnits();
 			if(unitslong < 0){
 				unitslong = -unitslong;
-				units.add(Objects.toString(unitslo
+				units.add(Objects.toString(unitslong));
+			}
+			else{
