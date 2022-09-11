@@ -84,4 +84,5 @@ public class OpenOrders {
 				units.add(Objects.toString(unitslong));
 			}
 			else{
-				units.add(Objects.toString(mo.g
+				units.add(Objects.toString(mo.getUnits()));
+		
