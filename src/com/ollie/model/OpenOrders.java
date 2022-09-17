@@ -91,4 +91,4 @@ public class OpenOrders {
 			
 			pair.add(mo.getPair().toString());
 			
-			pr
+			price.add(Objects.toS
