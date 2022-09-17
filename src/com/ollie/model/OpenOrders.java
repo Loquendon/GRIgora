@@ -93,4 +93,4 @@ public class OpenOrders {
 			
 			price.add(Objects.toString(mo.getPrice()));
 			
-			stopLoss.add(Objects.
+			stopLoss.add(Objects.toString(mo.getStop
