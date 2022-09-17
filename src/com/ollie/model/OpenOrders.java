@@ -89,4 +89,4 @@ public class OpenOrders {
 			
 			
 			
-			pair.a
+			pair.add(mo.getPair().t
