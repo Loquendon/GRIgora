@@ -95,4 +95,6 @@ public class OpenOrders {
 			
 			stopLoss.add(Objects.toString(mo.getStopLoss()));
 			
-			takeProfit.add(Objects.toString(mo.getTakeP
+			takeProfit.add(Objects.toString(mo.getTakeProfit()));
+			
+	
