@@ -98,4 +98,4 @@ public class OpenOrders {
 			takeProfit.add(Objects.toString(mo.getTakeProfit()));
 			
 			try {
-				DecimalFormat df = new Decimal
+				DecimalFormat df = new DecimalFormat("#.#####");
