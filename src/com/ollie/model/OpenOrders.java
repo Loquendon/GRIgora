@@ -99,4 +99,4 @@ public class OpenOrders {
 			
 			try {
 				DecimalFormat df = new DecimalFormat("#.#####");
-				String pl = 
+				String pl = df.format(mo.getUnreali
