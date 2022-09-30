@@ -99,4 +99,4 @@ public class OpenOrders {
 			
 			try {
 				DecimalFormat df = new DecimalFormat("#.#####");
-				String pl = df.format(mo.getUnrealizedPL(fxclient.getRateT
+				String pl = df.format(mo.getUnrealizedPL(fxclient.getRateTable().getRate(mo.ge
