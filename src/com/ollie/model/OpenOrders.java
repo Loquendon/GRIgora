@@ -100,4 +100,6 @@ public class OpenOrders {
 			try {
 				DecimalFormat df = new DecimalFormat("#.#####");
 				String pl = df.format(mo.getUnrealizedPL(fxclient.getRateTable().getRate(mo.getPair())));
-				profitLoss.add(
+				profitLoss.add(pl);
+				
+			} c
