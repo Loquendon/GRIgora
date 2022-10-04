@@ -107,4 +107,5 @@ public class OpenOrders {
 			}
 			
 			final int j = i;
-			Button b = new B
+			Button b = new Button();
+			b.setSty
