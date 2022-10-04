@@ -103,4 +103,7 @@ public class OpenOrders {
 				profitLoss.add(pl);
 				
 			} catch (RateTableException e) {
-				e.printSta
+				e.printStackTrace();
+			}
+			
+			
