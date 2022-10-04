@@ -106,4 +106,4 @@ public class OpenOrders {
 				e.printStackTrace();
 			}
 			
-			
+			final int j = i;
