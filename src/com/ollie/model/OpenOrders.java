@@ -102,4 +102,5 @@ public class OpenOrders {
 				String pl = df.format(mo.getUnrealizedPL(fxclient.getRateTable().getRate(mo.getPair())));
 				profitLoss.add(pl);
 				
-			} catch (RateTableE
+			} catch (RateTableException e) {
+				e.printSta
