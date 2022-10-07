@@ -110,4 +110,5 @@ public class OpenOrders {
 			Button b = new Button();
 			b.setStyle("-fx-background-color:  #ff5b5b");
 			b.setOnAction(event -> {
-	     
+	            try {
+					c
