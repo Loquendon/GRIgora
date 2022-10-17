@@ -113,3 +113,4 @@ public class OpenOrders {
 	            try {
 					closeOrder(j);
 				} catch (Exception e) {
+					e.printStackTrace();
