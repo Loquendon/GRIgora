@@ -112,4 +112,4 @@ public class OpenOrders {
 			b.setOnAction(event -> {
 	            try {
 					closeOrder(j);
-				} catch (Ex
+				} catch (Exception e) {
