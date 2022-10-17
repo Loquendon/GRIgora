@@ -111,4 +111,4 @@ public class OpenOrders {
 			b.setStyle("-fx-background-color:  #ff5b5b");
 			b.setOnAction(event -> {
 	            try {
-					c
+					closeOrder(j);
