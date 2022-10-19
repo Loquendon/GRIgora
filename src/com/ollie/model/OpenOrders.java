@@ -117,3 +117,4 @@ public class OpenOrders {
 				}
 	        });
 			b.setText("Close");
+			buttons.add(
