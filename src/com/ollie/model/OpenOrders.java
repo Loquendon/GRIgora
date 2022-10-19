@@ -126,4 +126,4 @@ public class OpenOrders {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public static vo
+	public static void closeOrder(int i) 
