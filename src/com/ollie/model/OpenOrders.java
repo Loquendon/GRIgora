@@ -116,4 +116,4 @@ public class OpenOrders {
 					e.printStackTrace();
 				}
 	        });
-			b
+			b.setText("Close");
