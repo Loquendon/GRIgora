@@ -126,4 +126,4 @@ public class OpenOrders {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public static void closeOrder(int i) 
+	public static void closeOrder(int i) throws SessionExc
