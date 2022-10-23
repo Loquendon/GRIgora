@@ -128,4 +128,4 @@ public class OpenOrders {
 	@SuppressWarnings("unchecked")
 	public static void closeOrder(int i) throws SessionException{
 		
-		MarketOrd
+		MarketOrder mo = trades.ge
