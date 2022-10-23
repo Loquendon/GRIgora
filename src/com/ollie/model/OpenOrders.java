@@ -126,4 +126,6 @@ public class OpenOrders {
 	}
 	
 	@SuppressWarnings("unchecked")
-	public static void closeOrder(int i) throws SessionExc
+	public static void closeOrder(int i) throws SessionException{
+		
+		MarketOrd
