@@ -128,4 +128,6 @@ public class OpenOrders {
 	@SuppressWarnings("unchecked")
 	public static void closeOrder(int i) throws SessionException{
 		
-		MarketOrder mo = trades.ge
+		MarketOrder mo = trades.get(i);
+		
+		FXClient fx
