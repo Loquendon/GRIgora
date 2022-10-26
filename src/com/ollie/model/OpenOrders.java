@@ -131,4 +131,4 @@ public class OpenOrders {
 		MarketOrder mo = trades.get(i);
 		
 		FXClient fxclient = Login.returnFXClient();
-		User 
+		User me = fxclient.getUse
