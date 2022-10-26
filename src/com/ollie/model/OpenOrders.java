@@ -131,4 +131,5 @@ public class OpenOrders {
 		MarketOrder mo = trades.get(i);
 		
 		FXClient fxclient = Login.returnFXClient();
-		User me = fxclient.getUse
+		User me = fxclient.getUser();
+		Vector<A
