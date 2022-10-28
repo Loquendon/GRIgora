@@ -137,4 +137,4 @@ public class OpenOrders {
 		
 		try {
 			myaccount.close(mo);
-		} catch (O
+		} catch (OAException e) {
