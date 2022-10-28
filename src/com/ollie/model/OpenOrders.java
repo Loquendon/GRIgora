@@ -133,4 +133,4 @@ public class OpenOrders {
 		FXClient fxclient = Login.returnFXClient();
 		User me = fxclient.getUser();
 		Vector<Account> accounts = me.getAccounts();
-		Account m
+		Account myaccount = (Account)accounts
