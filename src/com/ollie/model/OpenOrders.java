@@ -135,3 +135,5 @@ public class OpenOrders {
 		Vector<Account> accounts = me.getAccounts();
 		Account myaccount = (Account)accounts.firstElement();
 		
+		try {
+			myaccount.clo
