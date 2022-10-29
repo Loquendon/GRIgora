@@ -139,3 +139,6 @@ public class OpenOrders {
 			myaccount.close(mo);
 		} catch (OAException e) {
 			e.printStackTrace();
+		}
+		
+	}
