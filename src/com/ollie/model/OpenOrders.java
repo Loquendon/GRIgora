@@ -153,4 +153,7 @@ public class OpenOrders {
 	}
 
 	public static String getTime(int i){
-		return tim
+		return time.get(i);
+	}
+
+	publi
