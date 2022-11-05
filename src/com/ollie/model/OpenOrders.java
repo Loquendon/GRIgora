@@ -160,4 +160,5 @@ public class OpenOrders {
 		return units.get(i);
 	}
 	
-	public static String getP
+	public static String getPair(int i){
+		return pa
