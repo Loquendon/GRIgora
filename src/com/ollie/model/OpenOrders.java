@@ -161,4 +161,6 @@ public class OpenOrders {
 	}
 	
 	public static String getPair(int i){
-		return pa
+		return pair.get(i);
+	}
+	
