@@ -164,4 +164,5 @@ public class OpenOrders {
 		return pair.get(i);
 	}
 	
-	public static Strin
+	public static String getPrice(int i){
+		re
