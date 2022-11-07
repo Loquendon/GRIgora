@@ -165,4 +165,7 @@ public class OpenOrders {
 	}
 	
 	public static String getPrice(int i){
-		re
+		return price.get(i);
+	}
+	
+	p
