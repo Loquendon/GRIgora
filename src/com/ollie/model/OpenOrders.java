@@ -168,4 +168,4 @@ public class OpenOrders {
 		return price.get(i);
 	}
 	
-	public static St
+	public static String getSL(int i){
