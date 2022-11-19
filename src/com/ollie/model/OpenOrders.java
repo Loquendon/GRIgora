@@ -176,4 +176,4 @@ public class OpenOrders {
 		return takeProfit.get(i);
 	}
 	
-	public stat
+	public static String getP
