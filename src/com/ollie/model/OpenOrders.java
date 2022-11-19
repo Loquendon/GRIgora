@@ -174,3 +174,6 @@ public class OpenOrders {
 	
 	public static String getTP(int i){
 		return takeProfit.get(i);
+	}
+	
+	public stat
