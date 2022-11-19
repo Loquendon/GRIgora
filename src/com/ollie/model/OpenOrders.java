@@ -169,4 +169,6 @@ public class OpenOrders {
 	}
 	
 	public static String getSL(int i){
-		return stopL
+		return stopLoss.get(i);
+	}
+	
