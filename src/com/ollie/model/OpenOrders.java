@@ -177,4 +177,7 @@ public class OpenOrders {
 	}
 	
 	public static String getPL(int i){
-		return profitLoss.get(i
+		return profitLoss.get(i);
+	}
+
+	public static i
