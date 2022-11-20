@@ -181,4 +181,5 @@ public class OpenOrders {
 	}
 
 	public static int getSize(){
-		re
+		return trades.size();
+	
