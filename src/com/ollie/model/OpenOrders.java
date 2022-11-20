@@ -180,4 +180,5 @@ public class OpenOrders {
 		return profitLoss.get(i);
 	}
 
-	public static i
+	public static int getSize(){
+		re
