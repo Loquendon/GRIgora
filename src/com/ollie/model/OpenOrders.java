@@ -183,4 +183,5 @@ public class OpenOrders {
 	public static int getSize(){
 		return trades.size();
 	}
-	public static String getBuySell(int i
+	public static String getBuySell(int i){
+		return buysell.ge
