@@ -3,4 +3,6 @@ import com.oanda.fxtrade.api.*;
 
 public class RateTicker{
 	
-	public static void st
+	public static void startRateTicker()	{
+		
+	
