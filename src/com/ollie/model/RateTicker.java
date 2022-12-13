@@ -1,2 +1,2 @@
 package com.ollie.model;
-import com.
+import com.oanda.fxtrade.api
