@@ -7,4 +7,4 @@ public class RateTicker{
 		
 		//import client
 		
-		FXCli
+		FXClient fxclient = 
