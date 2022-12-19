@@ -5,4 +5,6 @@ public class RateTicker{
 	
 	public static void startRateTicker()	{
 		
-	
+		//import client
+		
+		FXCli
