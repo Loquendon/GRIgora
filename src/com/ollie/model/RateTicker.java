@@ -9,4 +9,4 @@ public class RateTicker{
 		
 		FXClient fxclient = Login.returnFXClient();
 		
-		//cr
+		//create new ticker to 
