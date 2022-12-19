@@ -7,4 +7,6 @@ public class RateTicker{
 		
 		//import client
 		
-		FXClient fxclient = Login.retur
+		FXClient fxclient = Login.returnFXClient();
+		
+		//cr
