@@ -10,4 +10,4 @@ public class RateTicker{
 		FXClient fxclient = Login.returnFXClient();
 		
 		//create new ticker to monitor current pair
-		Ticker t 
+		Ticker t = new Ticker
