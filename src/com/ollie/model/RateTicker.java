@@ -11,4 +11,4 @@ public class RateTicker{
 		
 		//create new ticker to monitor current pair
 		Ticker t = new Ticker();
-		try { fxclient.getRateTable().getEv
+		try { fxclient.getRateTable().getEventManager().add(
