@@ -12,4 +12,7 @@ public class RateTicker{
 		//create new ticker to monitor current pair
 		Ticker t = new Ticker();
 		try { fxclient.getRateTable().getEventManager().add(t); }
-		catch (SessionException e) { System.out.println(
+		catch (SessionException e) { System.out.println(e); }
+	}
+}
+
