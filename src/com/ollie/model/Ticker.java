@@ -15,3 +15,15 @@ import javafx.scene.chart.XYChart;
 public class Ticker extends FXRateEvent
 {
 	public void handle(FXEventInfo EI, FXEventManager EM)
+	{
+
+		FXRateEventInfo REI = (FXRateEventInfo) EI;
+			
+		if(REI.getPair().getPair().equals(CurrentPair.getCurrentPair())){
+			double ask = REI.getTick().getAsk();
+			
+			MainController.currentRate = ask;
+		}
+		
+	}
+}
