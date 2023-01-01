@@ -2,4 +2,4 @@
 
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
-<?import
+<?import javafx.scene.chart.*
