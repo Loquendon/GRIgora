@@ -6,4 +6,4 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?> 
 
-<Ancho
+<AnchorPane maxHeight="-Infi
