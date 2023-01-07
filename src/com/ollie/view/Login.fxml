@@ -3,4 +3,5 @@
 <?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.chart.*?>
-<?import java.lan
+<?import java.lang.*?>
+<?import javafx.sce
