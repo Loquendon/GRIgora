@@ -6,4 +6,4 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?> 
 
-<AnchorPane maxHeight="-Infi
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinit
