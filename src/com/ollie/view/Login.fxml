@@ -12,4 +12,4 @@
          <children>
             <Pane prefHeight="200.0" prefWidth="400.0" style="-fx-background-color: #c7ccdb;">
                <children>
-                  <Text layoutX="183.0" layoutY="37.0" strokeType="
+                  <Text layoutX="183.0" layoutY="37.0" strokeType="OUTSIDE" strok
