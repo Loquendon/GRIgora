@@ -17,4 +17,4 @@
                   <PasswordField fx:id="passwordF" layoutX="131.0" layoutY="111.0" text="" />
                   <Text layoutX="39.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
                   <Text layoutX="41.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
-                  <Button fx:id="loginButton" layoutX="174.0" layoutY="153.0" mnemonicParsing="false" on
+                  <Button fx:id="loginButton" layoutX="174.0" layoutY="153.0" mnemonicParsing="false" onAction="#loginButto
