@@ -18,4 +18,4 @@
                   <Text layoutX="39.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Username" />
                   <Text layoutX="41.0" layoutY="129.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
                   <Button fx:id="loginButton" layoutX="174.0" layoutY="153.0" mnemonicParsing="false" onAction="#loginButtonPressed" style="-fx-background-color: #0c2441; -fx-text-fill: #ffffff;" text="Login" />
-                  <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-4.0" layoutY="41.0" prefHeight="17.0" prefWidth=
+                  <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-4.0" layoutY="41.0" prefHeight="17.0" prefWidth="400.0" textAlignment="
