@@ -23,3 +23,22 @@
             <ComboBox fx:id="currencyPairCombo" layoutX="469.0" layoutY="12.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" />
             <Button fx:id="updatePairBtn" layoutX="621.0" layoutY="12.0" mnemonicParsing="false" onAction="#updatePairBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="Update" />
             <Button fx:id="confirmOrderBtn" layoutX="700.0" layoutY="191.0" mnemonicParsing="false" onAction="#confirmOrderBtnPressed" prefHeight="44.0" prefWidth="237.0" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="Confirm Order" AnchorPane.rightAnchor="263.0" />
+            <Label layoutX="703.0" layoutY="63.0" text="Units " AnchorPane.rightAnchor="461.0" />
+            <Label layoutX="704.0" layoutY="90.0" text="Rate" AnchorPane.rightAnchor="468.0" />
+            <Label layoutX="702.0" layoutY="122.0" text="Take Profit" AnchorPane.rightAnchor="430.0" />
+            <Label layoutX="703.0" layoutY="153.0" text="Stop Loss" AnchorPane.rightAnchor="436.0" />
+            <ToggleButton fx:id="buyBtn" layoutX="948.0" layoutY="21.0" mnemonicParsing="false" onAction="#buySellBtnPressed" prefHeight="100.0" prefWidth="237.0" style="-fx-background-color: #22cda5; -fx-text-fill: #ffffff;" text="BUY" AnchorPane.rightAnchor="15.0" />
+            <ToggleButton fx:id="sellBtn" layoutX="949.0" layoutY="135.0" mnemonicParsing="false" onAction="#buySellBtnPressed" prefHeight="100.0" prefWidth="237.0" style="-fx-background-color: #ff5b5b; -fx-text-fill: #ffffff;" text="SELL" AnchorPane.rightAnchor="15.0" />
+            <TextField fx:id="unitsTF" layoutX="815.0" layoutY="53.0" prefHeight="27.0" prefWidth="120.0" AnchorPane.rightAnchor="265.0" />
+            <TextField fx:id="stopLossTF" layoutX="815.0" layoutY="149.0" prefHeight="27.0" prefWidth="120.0" AnchorPane.rightAnchor="265.0" />
+            <TextField fx:id="takeProfitTF" layoutX="815.0" layoutY="117.0" prefHeight="27.0" prefWidth="120.0" AnchorPane.rightAnchor="265.0" />
+            <TextField fx:id="rateTF" editable="false" layoutX="815.0" layoutY="85.0" prefHeight="27.0" prefWidth="120.0" AnchorPane.rightAnchor="265.0" />
+            <GridPane layoutX="14.0" layoutY="50.0" prefHeight="186.0" prefWidth="672.0" style="-fx-background-color: #ffffff;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="514.0" AnchorPane.topAnchor="50.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="79.0" minHeight="28.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="158.0" minHeight="10.0" prefHeight="158.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
