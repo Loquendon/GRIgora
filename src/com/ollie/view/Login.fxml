@@ -21,4 +21,4 @@
                   <Label fx:id="errorLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-4.0" layoutY="41.0" prefHeight="17.0" prefWidth="400.0" textAlignment="CENTER" textFill="RED" />
                </children>
             </Pane>
-  
+         </children>
