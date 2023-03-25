@@ -9,3 +9,17 @@
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane prefHeight="800.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ollie.controller.MainController">
+   <children>
+      <AnchorPane prefHeight="250.0" prefWidth="1200.0" style="-fx-background-color: #c7ccdb;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="plusBtn" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#plusBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="+" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="12.0" />
+            <Button fx:id="minusBtn" layoutX="43.0" layoutY="12.0" mnemonicParsing="false" onAction="#minusBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="-" />
+            <Button fx:id="fiveSecBtn" layoutX="108.0" layoutY="12.0" mnemonicParsing="false" onAction="#fiveSecBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="5 Sec" />
+            <Button fx:id="thirtySecBtn" layoutX="163.0" layoutY="12.0" mnemonicParsing="false" onAction="#thirtySecBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="30 Sec" />
+            <Button fx:id="oneMinBtn" layoutX="226.0" layoutY="12.0" mnemonicParsing="false" onAction="#oneMinBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="1 Min" />
+            <Button fx:id="fiveMinBtn" layoutX="278.0" layoutY="12.0" mnemonicParsing="false" onAction="#fiveMinBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="5 Min" />
+            <Button fx:id="oneHrBtn" layoutX="332.0" layoutY="12.0" mnemonicParsing="false" onAction="#oneHrBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="1 Hr" />
+            <Button fx:id="oneDayBtn" layoutX="377.0" layoutY="12.0" mnemonicParsing="false" onAction="#oneDayBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="1 Day" />
+            <ComboBox fx:id="currencyPairCombo" layoutX="469.0" layoutY="12.0" prefWidth="150.0" style="-fx-background-color: #ffffff;" />
+            <Button fx:id="updatePairBtn" layoutX="621.0" layoutY="12.0" mnemonicParsing="false" onAction="#updatePairBtnPressed" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="Update" />
+            <Button fx:id="confirmOrderBtn" layoutX="700.0" layoutY="191.0" mnemonicParsing="false" onAction="#confirmOrderBtnPressed" prefHeight="44.0" prefWidth="237.0" style="-fx-background-color: #1f82b8; -fx-text-fill: #ffffff;" text="Confirm Order" AnchorPane.rightAnchor="263.0" />
