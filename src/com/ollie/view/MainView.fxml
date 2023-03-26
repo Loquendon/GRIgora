@@ -84,3 +84,29 @@
                                     <Label prefHeight="17.0" prefWidth="77.0" text="Take Profit" textAlignment="CENTER" GridPane.columnIndex="7" />
                                  </children>
                               </GridPane>
+                           </children>
+                        </AnchorPane>
+                    </content>
+                  </ScrollPane>
+               </children>
+               <padding>
+                  <Insets left="2.0" right="2.0" />
+               </padding>
+            </GridPane>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="542.0" prefWidth="908.0" AnchorPane.bottomAnchor="250.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <LineChart fx:id="myChart" style="-fx-background-color: #0c2441;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <xAxis>
+                <CategoryAxis side="BOTTOM" style="-fx-tick-label-fill: #ffffff;" fx:id="xAxis" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis fx:id="yAxis" side="LEFT" style="-fx-tick-label-fill: #ffffff;" />
+              </yAxis>
+            </LineChart>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="1033.0" prefHeight="800.0" prefWidth="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   </children>
+</AnchorPane>
