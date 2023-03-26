@@ -59,3 +59,28 @@
                                 <columnConstraints>
                                   <ColumnConstraints hgrow="SOMETIMES" maxWidth="108.0" minWidth="10.0" prefWidth="108.0" />
                                     <ColumnConstraints hgrow="SOMETIMES" maxWidth="81.0" minWidth="10.0" prefWidth="46.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="97.0" minWidth="10.0" prefWidth="64.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="110.0" minWidth="10.0" prefWidth="69.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="106.0" minWidth="10.0" prefWidth="59.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="106.0" minWidth="10.0" prefWidth="78.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="140.0" minWidth="10.0" prefWidth="68.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="107.0" minWidth="10.0" prefWidth="80.0" />
+                                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="93.0" minWidth="10.0" prefWidth="89.0" />
+                                </columnConstraints>
+                                <rowConstraints>
+                                  <RowConstraints maxHeight="20.0" minHeight="20.0" prefHeight="20.0" vgrow="SOMETIMES" />
+                                </rowConstraints>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                                 <children>
+                                    <Label prefHeight="17.0" prefWidth="105.0" text="Transaction ID" textAlignment="CENTER" />
+                                    <Label prefHeight="17.0" prefWidth="54.0" text="Units" textAlignment="CENTER" GridPane.columnIndex="1" />
+                                    <Label prefHeight="17.0" prefWidth="66.0" text="Pair" textAlignment="CENTER" GridPane.columnIndex="2" />
+                                    <Label prefHeight="17.0" prefWidth="58.0" text="Buy/Sell" textAlignment="CENTER" GridPane.columnIndex="3" />
+                                    <Label prefHeight="17.0" prefWidth="57.0" style="-fx-background-color: ;" text="Price" textAlignment="CENTER" GridPane.columnIndex="4" />
+                                    <Label prefHeight="17.0" prefWidth="71.0" text="Profit/Loss" textAlignment="CENTER" GridPane.columnIndex="5" />
+                                    <Label prefHeight="17.0" prefWidth="67.0" text="Stop Loss" textAlignment="CENTER" GridPane.columnIndex="6" />
+                                    <Label prefHeight="17.0" prefWidth="77.0" text="Take Profit" textAlignment="CENTER" GridPane.columnIndex="7" />
+                                 </children>
+                              </GridPane>
