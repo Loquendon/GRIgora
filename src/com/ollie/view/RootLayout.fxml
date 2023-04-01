@@ -6,4 +6,4 @@
 <?import javafx.scene.layout.BorderPane?>
 
 
-<BorderPane prefHeight="800.0" prefW
+<BorderPane prefHeight="800.0" prefWidth="1200.0" style="-fx-bac
