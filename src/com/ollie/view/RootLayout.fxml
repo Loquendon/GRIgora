@@ -6,4 +6,4 @@
 <?import javafx.scene.layout.BorderPane?>
 
 
-<BorderPane prefHeigh
+<BorderPane prefHeight="800.0" prefW
